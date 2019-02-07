@@ -1,8 +1,11 @@
 import '@babel/polyfill';
-import {Hello} from './parts/sub';
+import Person from './parts/Person';
 
-const message = 'Hello World';
 
-// sub.jsに定義されたJavaScriptを実行する。
-const instance = new Hello();
-instance.say(message);
+const person = new Person('Yamada', 45);
+
+// Yamada が出力される
+console.log(person.name); 
+
+// 45 が出力される
+console.log(person.age); 
