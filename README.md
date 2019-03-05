@@ -17,6 +17,12 @@ entryに書くページのパスを追記していく
   },
 ```
 
+###webpack-dev-serverを追記（19/03/05）
+- npm run startで開始される
+- log上でのみ更新されるために実ファイルは何も変わらないのが注意
+- ホットリロードされる
+- 作業を終えたら必ず、npm run buildで実ファイルを更新させる。
+
 ## 参考にしたサイト
 
 ### [最新版で学ぶwebpack 4入門 - Babel 7でES2018環境- ICS MEDIA](https://ics.media/entry/16028#webpack-babel-esnext)
